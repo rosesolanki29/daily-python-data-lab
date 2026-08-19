@@ -471,147 +471,75 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 1,
+   "execution_count": null,
    "id": "287e8664-bb5b-4ed8-87b0-8010fd7ecb80",
    "metadata": {},
-   "outputs": [
-    {
-     "name": "stderr",
-     "output_type": "stream",
-     "text": [
-      "warning: in the working copy of 'python-basics/set_datatype.ipynb', LF will be replaced by CRLF the next time Git touches it\n",
-      "warning: in the working copy of 'python-basics/.ipynb_checkpoints/function-checkpoint.ipynb', LF will be replaced by CRLF the next time Git touches it\n",
-      "warning: in the working copy of 'python-basics/function.ipynb', LF will be replaced by CRLF the next time Git touches it\n"
-     ]
-    }
-   ],
-   "source": [
-    "!git add ."
-   ]
+   "outputs": [],
+   "source": []
   },
   {
    "cell_type": "code",
-   "execution_count": 2,
+   "execution_count": null,
    "id": "88006d07-1ab8-4fef-9a07-3f3d2a5f9e17",
    "metadata": {},
-   "outputs": [
-    {
-     "name": "stdout",
-     "output_type": "stream",
-     "text": [
-      "[main 91e1396] functions\n",
-      " 3 files changed, 2248 insertions(+), 1 deletion(-)\n",
-      " create mode 100644 python-basics/.ipynb_checkpoints/function-checkpoint.ipynb\n",
-      " create mode 100644 python-basics/function.ipynb\n"
-     ]
-    }
-   ],
-   "source": [
-    "!git commit -m \"functions\""
-   ]
+   "outputs": [],
+   "source": []
   },
   {
    "cell_type": "code",
-   "execution_count": 3,
+   "execution_count": null,
    "id": "cd1c50e5-07ff-4034-957e-ed4eb38077af",
    "metadata": {},
-   "outputs": [
-    {
-     "name": "stderr",
-     "output_type": "stream",
-     "text": [
-      "To https://github.com/rosesolanki29/daily-python-data-lab.git\n",
-      "   a927210..91e1396  main -> main\n"
-     ]
-    }
-   ],
-   "source": [
-    "!git push"
-   ]
+   "outputs": [],
+   "source": []
   },
   {
    "cell_type": "code",
-   "execution_count": 7,
+   "execution_count": null,
+   "id": "df31cd09-9663-4bbe-a7f1-e5852f454d05",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "d433fce3-a016-471b-9a36-756a2e5b8a08",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
    "id": "b54e84ff-ea2f-457d-8aee-f61df81b0049",
    "metadata": {},
    "outputs": [],
-   "source": [
-    "#wap function that return fibonacci series upto nth term?\n",
-    "def fibo(n):\n",
-    "    if n==1:\n",
-    "        return[0]\n",
-    "    elif n==2:\n",
-    "        return[0,1]\n",
-    "    fib=[0,1]\n",
-    "    for i in range(2,n):\n",
-    "        next_term=fib[-1]+fib[-2]\n",
-    "        fib.append(next_term)\n",
-    "    return fib\n",
-    "        "
-   ]
+   "source": []
   },
   {
    "cell_type": "code",
-   "execution_count": 8,
+   "execution_count": null,
    "id": "e1be9a46-e42c-4b3a-9b33-09299df1bbee",
    "metadata": {},
-   "outputs": [
-    {
-     "data": {
-      "text/plain": [
-       "[0, 1, 1, 2, 3, 5, 8]"
-      ]
-     },
-     "execution_count": 8,
-     "metadata": {},
-     "output_type": "execute_result"
-    }
-   ],
-   "source": [
-    "fibo(7)"
-   ]
+   "outputs": [],
+   "source": []
   },
   {
    "cell_type": "code",
-   "execution_count": 9,
+   "execution_count": null,
    "id": "9d6ece08-ba27-40a0-89ea-dfd2bd439445",
    "metadata": {},
    "outputs": [],
-   "source": [
-    "#wap function that return fibonacci series upto nth term?\n",
-    "def fibo(n):\n",
-    "    if n==1:\n",
-    "        return[0]\n",
-    "    elif n==2:\n",
-    "        return[0,1]\n",
-    "    fib=[0,1]\n",
-    "    for i in range(2,n):\n",
-    "        next_term=fib[-1]+fib[-2]\n",
-    "        fib.append(next_term)\n",
-    "    return next_term\n",
-    "        "
-   ]
+   "source": []
   },
   {
    "cell_type": "code",
-   "execution_count": 11,
+   "execution_count": null,
    "id": "2c341cc3-c223-4b30-90b0-bb68f1d6977e",
    "metadata": {},
-   "outputs": [
-    {
-     "data": {
-      "text/plain": [
-       "8"
-      ]
-     },
-     "execution_count": 11,
-     "metadata": {},
-     "output_type": "execute_result"
-    }
-   ],
-   "source": [
-    "fibo(7)"
-   ]
+   "outputs": [],
+   "source": []
   },
   {
    "cell_type": "code",
